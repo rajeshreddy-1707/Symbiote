@@ -14,44 +14,14 @@ dataset and another which actually is the user interactive and performs the task
 by the user.
 
 
-Symbiote- An object detection tool using SSD Module, is a computer technology
-related to computer vision and img processing that deals with detecting instances of
-semantic objects of a certain class in digital imgs and videos. What makes us different
-is that in the same application we are using the same algorithm that can detect imgs
-and some features in general. We are using an SSD module to actually detect them.
-An SSD is a single-shot detector. It has no delegated region proposal network and
-predicts the boundary boxes and the classes directly from feature maps in one single
-pass. SSD uses a matching phase while training, to match the appropriate anchor box
-with the bounding boxes of each ground truth object within an img. We have designed
-it in a way, so that it can detect what a user wants to detect. For example- If a car is
-stolen and a user needs to detect its car, he or she can give the details of the car and
-the model will give the relevant data which are the same as that the user is looking for.
-We have a keen vision that it can be used as a theft-detecting model in the future, with
-some sort of modifications in it.
+Symbiote- An SSD Module-based object detection tool is a piece of computer vision and image processing software that finds instances of semantic objects of a particular class in digital images and videos. The fact that we use the same algorithm to recognise photos and other attributes generally inside the same application distinguishes us from other companies. An SSD module is what we're actually employing to find them. A single-shot detector is an SSD. It predicts the border boxes and the classes directly from feature maps in a single pass without the use of a delegated region proposal network.To match the appropriate anchor box with the bounding boxes of each ground truth object within an image, SSD performs a matching phase during training. We built it in such a way that it can recognise what a user wants it to recognise. For instance, if a car is stolen and a user wishes to locate it, he or she can provide the model information and the relevant data will be provided that match what the user is seeking for. With minor adjustments, we have a clear vision of using it as a theft-detection model in the future.
 
-![image](https://user-images.githubusercontent.com/78999231/212924240-e66102d4-afa8-4706-8aca-23addc8cf682.png)
-
-Theft is the most common crime committed across the world. According to the
-National Crime Records Bureau (NCRB), ~80% of the criminal cases are related to
-theft. Increasing theft rates cause people to suffer both financially and emotionally.
-Therefore, there is a need to develop a more deterrent surveillance system, which is
-
-convenient to use, free from false alarms, minimizes human interference, and is cost-
-effective. Computer vision works on enabling computers to see, identify and process
-
-imgs in the same way that human vision does, and then provide appropriate output. It
-is like imparting human intelligence.
+![image](https://user-images.githubusercontent.com/92686380/213913344-84c64bd9-63aa-42d9-94b4-5e2debe13bbf.png)
 
 
-Identifying each object in a picture or scene with the help of computer/software is
-called object detection. Object detection is an important computer vision task used to
-detect instances of visual objects of certain classes (for example, humans, animals,
-cars, or buildings) in digital imgs such as photos or video frames. The task of object
-detection is to determine whether there are objects belonging to the specified category
-in the img. If it exists, then the subsequent task is to identify its category and location
-information.In today’s scenario, the fastest algorithm which uses a single layer of
-convolutional network to detect the objects from the img is the single shot multibox
-detector (SSD) algorithm.
+The most frequent type of crime committed worldwide is theft. 80% of criminal cases, according to the National Crime Records Bureau (NCRB), involve theft. People suffer financially and emotionally when the theft rate rises. Therefore, a more effective monitoring system is required, one that is easy to use, free from false alerts, minimises human involvement, and is also cost-efficient. The goal of computer vision is to give computers the ability to perceive, recognise, and analyse images in a manner similar to that of human vision, and to then produce the desired results. Giving someone human intelligence is like that.
+
+Using a computer and software, object detection identifies every thing in a scene or image. Detecting instances of visual objects of particular classes, such as people, animals, cars, or buildings, in digital images like photo or video frames is a crucial computer vision task. The goal of object detection is to find any things in the image that fit the defined category. The next step is to determine the category and location details if it exists. The single shot multibox detector (SSD) technique is currently the quickest algorithm for object detection from images using a single layer of neural networks.
 
 ### CORE AREA OF THE PROJECT
 
@@ -86,7 +56,7 @@ faster.
 5. Only Mr. X needs to give details about his car and our software will detect where it
 has traveled in the whole city by CCTV footage.
 
-![image](https://user-images.githubusercontent.com/78999231/212933211-c7b864af-152b-48ba-81f9-e1d067f9459f.png)
+![image](https://user-images.githubusercontent.com/92686380/213913470-b1ca680a-5d8e-40f1-8dd2-78fd2b5cb3ad.png)
 
 ### Software Architecture Diagram
 
@@ -95,19 +65,8 @@ has traveled in the whole city by CCTV footage.
 ![image](https://user-images.githubusercontent.com/78999231/212933642-030b9ac2-7472-4ca0-845c-8a7972e5a802.png)
 
 ### KEY IMPLEMENTATIONS OUTLINES OF THE SYSTEM
-Perpetration is the process that actually yields the smallest- position system
-rudiments in the system scale ( system breakdown structure). System
-rudiments are made, bought, or reused. Product involves the tackle fabrication
-processes of forming, removing, joining, and finishing, the software
-consummation processes of rendering and testing, or the functional
-procedures development processes for drivers' roles. However, a
-manufacturing system which uses the established specialized and operation
-processes may be needed, If perpetration involves a product process.
-The purpose of the perpetration process is to design and produce (or
-fabricate) a system element conforming to that element’s design parcels and/
-or conditions. The element is constructed employing applicable technologies
-and assiduity practices. This process bridges the system description processes
-and the integration process.
+The system scale's smallest-position system rudiments are actually produced by the repetition process ( system breakdown structure). System foundations are created, purchased, or recycled. Products may include the rendering and testing phases of software, the shaping, removing, connecting, and finishing phases of tackle production, or the functional procedure development phases for driver roles. However, if a product process is involved, a production system that employs the existing specialised and operation processes may be required.
+Designing and producing (or fabricating) a system element in accordance with that element's design components and/or conditions is the goal of the perpetration process. The element is built using appropriate technologies and meticulous construction techniques. The integration process and the system description process are connected by this procedure.
 
 ### SIGNIFICANT PROJECT OUTCOMES
 The significant project outcomes are -
@@ -119,8 +78,7 @@ The significant project outcomes are -
 For example: Car - Company, Color, Number Plate, etc.
 
 ### PROJECT APPLICABILITY ON REAL WORLD
-The real world problem deals with the implementation of the many such events that
-may occur and will occur. Some of them are stated below:
+The real world problem deals with the implementation of the many such events that may occur and will occur. Some of them are stated below:
 
 ● Theft Detection
 ● In malls can be of lost items
