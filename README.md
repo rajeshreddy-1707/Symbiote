@@ -87,6 +87,6 @@ In this chapter, we came to know about the real world examples of our project al
 with the significant outcomes.
 
 You can contact my other mates-
-1. [Parmeet Singh Banwait](https://github.com/Dedmondium)
-2. [MVN Rajesh Reddy](https://github.com/rajeshreddy-1707)
+1. Parmeet Singh Banwait
+2. Mohd Mohsin Khan
 3. Sparsh Handa
